@@ -21,3 +21,14 @@ int stats_find_max(int array[], int size) {
 	
 	return max;
 }
+
+// Επιστρέφει το μεγαλύτερο από τα a, b, όπου η σύγκριση γίνεται
+// με βάση τη συνάρτηση compare.
+
+Pointer generic_max(Pointer a, Pointer b, CompareFunc comp) {
+    // Καλούμε την comp για να μας συγκρίνει τους αριθμούς, επιστρέφουμε a ή b ανάλογα
+    if(comp(a, b) > 0)
+        return a;
+    else
+        return b;
+}
