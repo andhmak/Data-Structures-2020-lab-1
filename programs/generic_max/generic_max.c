@@ -30,7 +30,7 @@ int main() {
 
     char* s1 = "zzz";
     char* s2 = "aaa";
-	char* max_s = generic_max(s1, s2, compare_ints);
+    char* max_s = generic_max(s1, s2, compare_ints);
 
     printf("max of %s , %s is %s\n", s1, s2, max_s);
 }
