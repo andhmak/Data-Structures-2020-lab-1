@@ -3,7 +3,7 @@ MODULES =
 INCLUDE = 
 
 # Compile options. Το -I<dir> λέει στον compiler να αναζητήσει εκεί include files
-CFLAGS = 
+CFLAGS = -g
 
 # Αρχεία .o
 OBJS = hello.o
